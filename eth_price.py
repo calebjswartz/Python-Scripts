@@ -12,4 +12,4 @@ info = coin_data['props']['quotesLatestData']
 eth_data = next(item for item in info if item["symbol"] == "ETH")
 price = eth_data['p']
 
-print("The current price of ethereum is " + price)
+print("The current price of ethereum is " + str(price))
